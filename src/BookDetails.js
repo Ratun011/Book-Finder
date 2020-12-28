@@ -20,12 +20,12 @@ const BookDetails = ({ match, history }) => {
           {book.imageLinks == undefined ? (
             <img
               src="https://picsum.photos/id/1040/200/300"
-              style={{ height: "500px", marginRight: "200px" }}
+              style={{ height: "5000px", marginRight: "200px" }}
             />
           ) : (
             <img
               src={book.imageLinks.thumbnail}
-              style={{ height: "500px", marginRight: "100px" }}
+              style={{ height: "5000px", marginRight: "100px" }}
             />
           )}
         </div>
